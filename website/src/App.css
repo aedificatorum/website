@@ -19,3 +19,11 @@ h2 {
 h1 {
   font-family: 'Major Mono Display', monospace;
 }
+
+.logo-home {
+  width: 20%;
+  height: auto;
+}
+
+/* Other font */
+/* font-family: 'Fredericka the Great', cursive; */
