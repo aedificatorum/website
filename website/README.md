@@ -1,3 +1,10 @@
+Color theme:
+- #E8D6CB: Bone
+- #D0ADA7: Silver Pink
+- #AD6A6C: Copper Penny
+- #5D2E46: Wine Dregs
+- #B58DB6: Glossy Grapes
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
