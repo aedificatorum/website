@@ -1,13 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import About from "./About";
 import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
   animateScroll as scroll,
-  scrollSpy,
   scroller
 } from "react-scroll";
 
@@ -17,8 +12,8 @@ const App = () => {
     scroll.scrollToTop();
   }
 
-  const scrollTo = () => {
-    scroller.scrollTo("scroll-to-element", {
+  const scrollTo = (elementName) => {
+    scroller.scrollTo(elementName, {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart"
@@ -32,10 +27,9 @@ const App = () => {
         alt="aedificatorum-logo"
         className="logo-home"
       />
-      <p>lol the other p?</p>
       <h1>We are Aedificatorum</h1>
       <h2>/ɑədɪfɪkætɒrʊəm/</h2>
-      <a onClick={() => scrollTo()}>
+      <a onClick={() => scrollTo("about")}>
         <h3>About</h3>
       </a>
       <p>spacer at the top</p>
@@ -64,10 +58,10 @@ const App = () => {
       <p>spacer at the top</p>
       <p>spacer at the top</p>
 
-      <Element name="scroll-to-element" className="element">
+      <div name="about" className="element">
         <h1>About</h1>
         <About />
-      </Element>
+      </div>
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
