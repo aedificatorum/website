@@ -72,23 +72,56 @@ class App extends Component {
           alt="aedificatorum-logo"
           className="logo-home"
         />
+        <p>lol the other p?</p>
         <h1>We are Aedificatorum</h1>
         <h2>/ɑədɪfɪkætɒrʊəm/</h2>
-        <NavLink to="/about">
+        <a onClick={() => this.scrollTo()}>
           <h3>About</h3>
-        </NavLink>
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route exact path="/" />
-        </Switch>      
-        {/* <a className="about" to="about" onClick={() => this.scrollTo()}>
-            About
-          </a>
+        </a>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        <p>spacer at the top</p>
+        
         <Element name="scroll-to-element" className="element">
+          <h1>About</h1>
           <About />
         </Element>
-
-        <a onClick={this.scrollToTop}>To the top</a> */}
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <p>spacer at the bottom</p>
+        <a onClick={this.scrollToTop}>To the top</a>
       </div>
     );
   }

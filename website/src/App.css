@@ -2,7 +2,7 @@ body {
   background-color: #AD6A6C;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  /* height: 80vh; */
   justify-content: center;
   padding: 0 30px;
   text-align: center;
