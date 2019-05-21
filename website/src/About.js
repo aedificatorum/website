@@ -16,8 +16,8 @@ const About = () => {
           <h4 className="about-content">Who are we?</h4>
           <h5><b>Aedificatorum</b> is a shared project created by Céline & Tim.</h5>
 
-          <h4>Tim</h4>
           <h4>Céline</h4>
+          <h4>Tim</h4>
         </div>
       </div>
     </div>
