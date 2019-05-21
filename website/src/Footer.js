@@ -4,10 +4,18 @@ const Footer = (props) => {
   const { scrollToTop } = props;
 
   return (
-    <footer className="footer mt-auto py-3">
-      <div className="container">
+    <footer className="footer mt-auto">
+    <div className="py-3">
         <span className="text-muted">
-        <a href="/" onClick={scrollToTop}>To the top</a>
+        <a href="/" onClick={scrollToTop}>Top</a>
+       
+        <div>LINKS</div>
+        </span>
+
+      </div>
+        
+      <div className="footer-bottom py-3">
+        <span className="text-light">
         <div>Built & Designed by Aedificatorum.</div>
         </span>
 
