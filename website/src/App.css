@@ -1,8 +1,5 @@
 body {
   background-color: #ad6a6c;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
