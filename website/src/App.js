@@ -76,7 +76,7 @@ const App = () => {
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
-      <a onClick={scrollToTop}>To the top</a>
+      <Footer scrollToTop={scrollToTop}/>
     </div>
   );
 }

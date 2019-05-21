@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const Footer = () => {
+const Footer = (props) => {
+  const { scrollToTop } = props;
+
   return (
-    <div>YO</div>
-  )  
-}
+    <footer className="footer mt-auto py-3">
+      <div className="container">
+        <span className="text-muted">
+        <a onClick={scrollToTop}>To the top</a>
+        </span>
 
-export default Footer
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
