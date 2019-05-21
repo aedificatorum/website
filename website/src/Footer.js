@@ -8,7 +8,7 @@ const Footer = (props) => {
       <div className="container">
         <span className="text-muted">
         <a href="/" onClick={scrollToTop}>To the top</a>
-
+        <div>Built & Designed by Aedificatorum.</div>
         </span>
 
       </div>

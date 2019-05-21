@@ -2,9 +2,8 @@ body {
   background-color: #AD6A6C;
   display: flex;
   flex-direction: column;
-  /* height: 80vh; */
   justify-content: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   text-align: center;
 }
 
@@ -20,11 +19,6 @@ h1 {
   font-family: 'Major Mono Display', monospace;
 }
 
-/* a {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 200%;
-} */
-
 .logo-home {
   width: 20%;
   height: auto;
@@ -32,6 +26,10 @@ h1 {
 
 .about {
   margin-bottom: 400px;
+}
+
+footer {
+  background-color: #D0ADA7
 }
 
 /* Other font */
