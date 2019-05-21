@@ -7,7 +7,7 @@ const Footer = (props) => {
     <footer className="footer mt-auto">
     <div className="py-3">
         <span className="text-muted">
-        <a href="/" onClick={scrollToTop}>Top</a>
+        <a href="/" onClick={scrollToTop}><i class="fas fa-chevron-up"></i></a>
        
         <div>LINKS</div>
         </span>
