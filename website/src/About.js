@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div className="about">
       <div className="row">
-        <div className="col md-4 sd-12">
+        <div className="col-4">
+          <h4 className="about-translation">Builder - Architect Maker</h4>
           <p>
             In Latin <i>aedificatorum</i> is the genitive masculine plural of
             aedificator.
           </p>
           <p>Genetive is the case that expresses possesion.</p>
-          <p>Translation: builder, architect, maker</p>
         </div>
-        <div className="col md-5 offset-md-1 sd-12">
+        <div className="col-6 offset-md-2">
           Aedificatorum is Tim and Céline ...
         </div>
       </div>

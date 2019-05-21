@@ -1,5 +1,5 @@
 body {
-  background-color: #AD6A6C;
+  background-color: #ad6a6c;
   display: flex;
   flex-direction: column;
   /* height: 80vh; */
@@ -8,16 +8,18 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #E8D6CB;
+h1,
+h4 {
+  color: #e8d6cb;
 }
 
 h2 {
-  color: #5D2E46;
+  color: #5d2e46;
 }
 
-h1 {
-  font-family: 'Major Mono Display', monospace;
+h1,
+h4 {
+  font-family: "Major Mono Display", monospace;
 }
 
 /* a {
@@ -32,6 +34,11 @@ h1 {
 
 .about-link {
   margin-bottom: 300px;
+}
+
+.about-translation {
+  text-align: center;
+  padding-bottom: 9%;
 }
 
 .about {
