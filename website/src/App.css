@@ -30,8 +30,13 @@ h1 {
   height: auto;
 }
 
+.about-link {
+  margin-bottom: 300px;
+}
+
 .about {
   margin-bottom: 400px;
+  margin-top: 5%;
 }
 
 /* Other font */
