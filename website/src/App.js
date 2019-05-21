@@ -23,7 +23,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <img
         src="aedificatorum-logo.png"
         alt="aedificatorum-logo"
@@ -54,7 +54,7 @@ const App = () => {
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
       <Footer scrollToTop={scrollToTop}/>
-    </div>
+    </React.Fragment>
   );
 };
 
