@@ -9,7 +9,8 @@ import {
 
 const App = () => {
 
-  const scrollToTop = () => {
+  const scrollToTop = (e) => {
+    e.preventDefault();
     scroll.scrollToTop();
   }
 
