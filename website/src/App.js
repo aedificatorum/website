@@ -1,24 +1,20 @@
 import React from "react";
 import "./App.css";
 import About from "./About";
-import {
-  animateScroll as scroll,
-  scroller
-} from "react-scroll";
+import { animateScroll as scroll, scroller } from "react-scroll";
 
 const App = () => {
-
   const scrollToTop = () => {
     scroll.scrollToTop();
-  }
+  };
 
-  const scrollTo = (elementName) => {
+  const scrollTo = elementName => {
     scroller.scrollTo(elementName, {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart"
     });
-  }
+  };
 
   return (
     <div>
@@ -29,36 +25,12 @@ const App = () => {
       />
       <h1>We are Aedificatorum</h1>
       <h2>/ɑədɪfɪkætɒrʊəm/</h2>
-      <a onClick={() => scrollTo("about")}>
-        <h3>About</h3>
-      </a>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-      <p>spacer at the top</p>
-
-      <div name="about" className="element">
+      <div className="about-link">
+        <a onClick={() => scrollTo("about")}>
+          <h3>About</h3>
+        </a>
+      </div>
+      <div name="about" className="container element">
         <h1>About</h1>
         <About />
       </div>
@@ -78,6 +50,6 @@ const App = () => {
       <a onClick={scrollToTop}>To the top</a>
     </div>
   );
-}
+};
 
 export default App;
