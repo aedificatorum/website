@@ -8,9 +8,12 @@ const Footer = props => {
       <div className="py-3">
         <span className="text-muted">
           <a href="/" onClick={scrollToTop}>
-            <i class="fas fa-chevron-up" />
+            <i className="fas fa-chevron-up" />
           </a>
-          <div>LINKS</div>
+          <div>
+          <a href="https://github.com/aedificatorum"
+                target="blank"><i className="fab fa-github-square fa-3x"></i></a>
+          </div>
         </span>
       </div>
       <div className="footer-bottom py-3">
