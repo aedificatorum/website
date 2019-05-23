@@ -11,10 +11,12 @@ const Footer = props => {
             <i className="fas fa-chevron-up" />
           </a>
           <div>
-          <a href="https://github.com/aedificatorum"
-                target="blank"><i className="fab fa-github-square fa-3x"></i></a>
-          <a href="https://twitter.com/aedificatorum"
-                target="blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://github.com/aedificatorum" target="blank">
+              <i className="fab fa-github-square fa-3x" />
+            </a>
+            <a href="https://twitter.com/aedificatorum" target="blank">
+              <i class="fab fa-twitter-square fa-3x" />
+            </a>
           </div>
         </span>
       </div>

@@ -13,6 +13,14 @@ h4 {
   font-family: "Major Mono Display", monospace;
 }
 
+a {
+  color: #5D2E46;
+}
+
+a:hover {
+  color: #ad6a6c;
+}
+
 .logo-home {
   width: 20%;
   height: auto;
@@ -40,5 +48,12 @@ footer {
 .footer-bottom {
   background-color: #5D2E46
 }
+
+.fab {
+  padding: 2% 2% 0 0;
+}
+
+
+
 /* Other font */
 /* font-family: 'Fredericka the Great', cursive; */
