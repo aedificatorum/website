@@ -1,16 +1,6 @@
 body {
   background-color: #ad6a6c;
-  display: flex;
-  flex-direction: column;
-  /* height: 80vh; */
-  justify-content: center;
-  padding: 0 30px;
   text-align: center;
-}
-
-h1,
-h4 {
-  color: #e8d6cb;
 }
 
 h2 {
@@ -19,13 +9,9 @@ h2 {
 
 h1,
 h4 {
+  color: #e8d6cb;
   font-family: "Major Mono Display", monospace;
 }
-
-/* a {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 200%;
-} */
 
 .logo-home {
   width: 20%;
@@ -47,5 +33,12 @@ h4 {
   text-align: left;
 }
 
+footer {
+  background-color: #D0ADA7
+}
+
+.footer-bottom {
+  background-color: #5D2E46
+}
 /* Other font */
 /* font-family: 'Fredericka the Great', cursive; */

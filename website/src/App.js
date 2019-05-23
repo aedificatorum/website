@@ -1,10 +1,16 @@
 import React from "react";
 import "./App.css";
 import About from "./About";
-import { animateScroll as scroll, scroller } from "react-scroll";
+import Footer from "./Footer"
+import {
+  animateScroll as scroll,
+  scroller
+} from "react-scroll";
 
 const App = () => {
-  const scrollToTop = () => {
+
+  const scrollToTop = (e) => {
+    e.preventDefault();
     scroll.scrollToTop();
   };
 
@@ -17,7 +23,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <img
         src="aedificatorum-logo.png"
         alt="aedificatorum-logo"
@@ -47,8 +53,8 @@ const App = () => {
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
       <p>spacer at the bottom</p>
-      <a onClick={scrollToTop}>To the top</a>
-    </div>
+      <Footer scrollToTop={scrollToTop}/>
+    </React.Fragment>
   );
 };
 
