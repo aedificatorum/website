@@ -8,6 +8,7 @@ h2 {
 }
 
 h1,
+h3,
 h4 {
   color: #e8d6cb;
   font-family: "Major Mono Display", monospace;
@@ -31,13 +32,14 @@ a:hover {
 }
 
 .about-content {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 9%;
+  color: white;
 }
 
 .about-page {
   margin-bottom: 400px;
-  margin-top: 5%;
+  margin-top: 7%;
   text-align: left;
 }
 

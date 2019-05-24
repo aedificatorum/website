@@ -45,20 +45,7 @@ const App = () => {
             <i className="fas fa-chevron-up fa-2x mr-4" />
           </a>
         </div>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <Footer scrollToTop={scrollToTop}/>
+      <Footer />
     </React.Fragment>
   );
 };
