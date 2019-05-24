@@ -8,9 +8,18 @@ h2 {
 }
 
 h1,
+h3,
 h4 {
   color: #e8d6cb;
   font-family: "Major Mono Display", monospace;
+}
+
+a {
+  color: #5D2E46;
+}
+
+a:hover {
+  color: #ad6a6c;
 }
 
 .logo-home {
@@ -23,13 +32,14 @@ h4 {
 }
 
 .about-content {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 9%;
+  color: white;
 }
 
 .about-page {
   margin-bottom: 400px;
-  margin-top: 5%;
+  margin-top: 7%;
   text-align: left;
 }
 
@@ -40,5 +50,12 @@ footer {
 .footer-bottom {
   background-color: #5D2E46
 }
+
+/* .chevron {
+  float: right;
+} */
+
+
+
 /* Other font */
 /* font-family: 'Fredericka the Great', cursive; */

@@ -40,20 +40,12 @@ const App = () => {
         <h1>About</h1>
         <About />
       </div>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <p>spacer at the bottom</p>
-      <Footer scrollToTop={scrollToTop}/>
+      <div className="chevron float-right">
+          <a href="/" onClick={scrollToTop}>
+            <i className="fas fa-chevron-up fa-2x mr-4" />
+          </a>
+        </div>
+      <Footer />
     </React.Fragment>
   );
 };
